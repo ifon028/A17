@@ -16,7 +16,7 @@ global.autoreadgc = process.env.AUTOREADGC || true;
 
 
 // Auth information
-global.pairNumber = "919002162806";                         // Add your paining number with country code example "916297175943"; 
+global.pairNumber = "6289560431234";                         // Add your paining number with country code example "916297175943"; 
 global.port = process.env.PORT || "10000";
 global.auth = process.env.AUTH || "Pairing";                // Auth mode OR/Pairing.
 global.sessionFile = process.env.SESSION_FILE || "A17-SESSION";
@@ -30,20 +30,48 @@ global.prefa = process.env.PREFIX ? process.env.PREFIX.split(",") : ["."];
 
 
 // Owner information
-global.Owner = process.env.OWNER ? process.env.OWNER.split(",") : ["916297175943", "919362639362"];
-global.OwnerNumber = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(",") : ["916297175943", "919362639362"];
-global.ownertag = process.env.OWNER_TAG ? process.env.OWNER_TAG.split(",") : ["916297175943"];
-global.OwnerName = process.env.OWNER_NAME || "Kai";
-global.BotName = process.env.BOT_NAME || "A17";
-global.packname = process.env.PACK_NAME || "A17 Bot";
+global.Owner = process.env.OWNER ? process.env.OWNER.split(",") : ["6285736938192", "62895604931234"];
+global.OwnerNumber = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(",") : ["6285736938192", "62895604931234"];
+global.ownertag = process.env.OWNER_TAG ? process.env.OWNER_TAG.split(",") : ["6285736938192"];
+global.OwnerName = process.env.OWNER_NAME || "N_A_I";
+global.BotName = process.env.BOT_NAME || "Nai√Bot";
+global.packname = process.env.PACK_NAME || "Nai√Bot";
 global.author = "By: Kai";
-global.BotSourceCode = "https://github.com/Kai0071/A17";
+global.BotSourceCode = "https://github.com/ifon028/A17";
 global.SupportGroupLink = "https://chat.whatsapp.com/GhRGdwfaMVDCoeAdzILfl";
 
 
 //
-global.openAiAPI = process.env.OPENAI_API || "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";
-global.location = process.env.LOCATION || "West Bengal, India";
+global.mupar = 'OnLasdan'
+global.org = '4SVXAlaZC9Ix9LK5O33M7qeZ'
+global.openai = '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'
+global.APIs = {
+can: 'https://pnggilajacn.my.id',
+xteam: 'https://api.xteam.xyz', 
+nrtm: 'https://fg-nrtm.ddns.net',
+bg: 'http://bochil.ddns.net',
+lol : 'https://api.lolhuman.xyz' , 
+fgmods: 'https://api-fgmods.ddns.net',
+violetics : 'https://violetics.pw',
+zenz: 'https://zenzapi.xyz',
+xzn: 'https://skizo.tech',
+ibeng: 'https://api.ibeng.tech', 
+
+}
+
+global.APIKeys = {
+'https://pnggilajacn.my.id': 'ItsukaChan',
+'https://api.xteam.xyz': 'd90a9e986e18778b',
+'https://zenzapis.xyz': '675e34de8a', 
+'https://api-fgmods.ddns.net': 'Pa5SYPbA',
+'https://zenzapi.xyz': '01ABEB1E11',
+'https://violetics.pw': 'beta',
+'https://api.lolhuman.xyz': 'haikalgans',
+'https://skizo.tech': 'konekocyz', 
+'https://api.ibeng.tech' : 'QeyZTULyQg', 
+
+}
+global.location = process.env.LOCATION || "Asian, Jakarta";
 global.reactmoji = process.env.REACT_MOJI || "❤️";
 global.themeemoji = process.env.THEME_EMOJI || "💖";
 global.vidmenu = { url: process.env.VID_MENU_URL || 'https://media.tenor.com/Jdu0Ov8X2sIAAAAC/A17-Bot.mp4' };
