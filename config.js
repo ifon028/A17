@@ -19,7 +19,7 @@ global.autoreadgc = process.env.AUTOREADGC || true;
 global.pairNumber = "6289560431234";                         // Add your paining number with country code example "916297175943"; 
 global.port = process.env.PORT || "10000";
 global.auth = process.env.AUTH || "Pairing";                // Auth mode OR/Pairing.
-global.sessionFile = process.env.SESSION_FILE || "A17-SESSION";
+global.sessionFile = process.env.SESSION_FILE || "session";
 global.mongodb = process.env.MONGODB || "";                 // Mongodb url.
 global.website = "https://www.exenoz.tech"; 
 global.github = "https://github.com/Kai0071";
@@ -36,7 +36,7 @@ global.ownertag = process.env.OWNER_TAG ? process.env.OWNER_TAG.split(",") : ["6
 global.OwnerName = process.env.OWNER_NAME || "N_A_I";
 global.BotName = process.env.BOT_NAME || "Nai√Bot";
 global.packname = process.env.PACK_NAME || "Nai√Bot";
-global.author = "By: Kai";
+global.author = "By: ifon028";
 global.BotSourceCode = "https://github.com/ifon028/A17";
 global.SupportGroupLink = "https://chat.whatsapp.com/GhRGdwfaMVDCoeAdzILfl";
 
